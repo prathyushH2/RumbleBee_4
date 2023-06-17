@@ -1,7 +1,7 @@
 import openai
 
 def generate_email_response(email_content, reply_content):
-    openai.api_key = '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'  # Replace with your OpenAI API key
+    openai.api_key = ''  # Replace with your OpenAI API key
 
     prompt = f"You received an email:\n\n{email_content}\n\nReply: {reply_content}\n\n"
     response = openai.Completion.create(
